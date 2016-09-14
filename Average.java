@@ -19,9 +19,9 @@ public class Average{
     double num2 = input.nextDouble();
     double num3 = input.nextDouble();
     
-    double average = (num1 + num2 + num3)/3;
+    double addition = (num1 + num2 + num3);
       
-      System.out.println("This is the average" + average);
+      System.out.println("This is the addition" + addition);
       
   }
   
