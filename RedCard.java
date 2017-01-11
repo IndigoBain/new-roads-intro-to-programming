@@ -11,4 +11,4 @@ public class RedCard extends Card{
   public String toString(){
     return super.toString() + " " + color;
   }
-}//edn of class
+}//end of class
