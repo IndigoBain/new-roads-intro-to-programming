@@ -1,9 +1,15 @@
 public class CardTester{
   
+  //main method for testing
   public static void main(String[]args){
+    // Card card = new Card("red", "diamonds",'8');
+    // System.out.println(card);
     
-    
-    Card c = new Card();
+    RedCard rCard = new RedCard();
+    rCard.setSuit("spade");
+    rCard.setRank('5');
+    System.out.println(rCard);                          
+    /*Card c = new Card();
     
     c.setColor("black");
     c.setSuit("spade");
@@ -24,7 +30,7 @@ public class CardTester{
     
     c3.setColor("black");
     c3.setSuit("spade");
-    c3.setRank('T');
+    c3.setRank('9');
     
     System.out.println(c3.toString());
     
@@ -44,7 +50,7 @@ public class CardTester{
     c5.setSuit("spade");
     c5.setRank('Q');
     
-    System.out.println(c5.toString());
+    System.out.println(c5.toString());*/
     
     
     
